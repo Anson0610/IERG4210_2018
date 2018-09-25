@@ -1,13 +1,237 @@
+<style>
+.border{
+border-left:10px solid #ff0;border-right:100px solid #ff0;
+}
+
+body {
+  width: 960px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+img.logo {
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+}
+/*header*/
+header{
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+/*header*/
+
+/*test*/
+.where {
+  float:right;
+  width:80%;
+  margin-top: -20px;
+  font-size:10px;
+}
+/*test*/
+/* nav part */
+nav {
+  background-color: #333;
+  margin-top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: 18%;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    float: left;
+    display: inline-block;
+}
+nav li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    display: block;
+}
+nav li a:hover {
+    background-color: #111;
+    border-bottom: solid 3px rgb(255,49,69)
+}
+/* nav part */
+
+/*category*/
+.category{
+  float: left;
+  width: 20%;
+  margin-top: -10px;
+}
+
+.category ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 150px;
+    overflow: auto;
+}
+.category li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.category li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.category li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/*category*/
+
+/* article */
+article{
+  margin-top: -10px;
+  float: right;
+  width: 80%;
+  background-color: #ffffff;
+}
+ article table{
+  width:100%;
+ }
+ img.product {
+   width: 200px;
+ }
+ h1.product{
+   font-size: 10px;
+ }
+/* article */
+
+/* footer */
+
+footer {
+  float:left;
+    background-color: #777;
+    text-align: center;
+    color: white;
+}
+/* footer */
+</style>
+
 <html>
   <html lang="en">
-  <header>
+  <head>
     <meta charset="UTF-8">
-    <title>CxC - 24x7 ONLINE SHOP</title>
+    <title>CxC - 24x7 ONLINE SHOP | Free Shopping after $500</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+<body>
+  <header>
+    <a href="main.html">
+      <img class="logo" src="banner.jpg"  />
+    </a>
   </header>
-  <body>
+  <nav>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#news">About CxC</a></li>
+      <li><a href="#contact">My Account</a></li>
+      <li><a href="#about">Logout</a></li>
+      <li><a href="#about">Shopping Cart</a></li>
+    </ul>
+  </nav>
+  <div class="where">
+    <h1>
+      Home>
+    </h1>
 
- </body>
+  </div>
+  <div class="category">
+    <ul>
+          <li><a >Product</a></li>
+          <li><a href="#">>Amino Acids</a></li>
+          <li><a href="#">>Vitamins </a></li>
+        </ul>
+  </div>
+
+  <article>
+    <table>
+      <tr>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\1.jpg"  />
+            <h1 class="product"> Doctor's Best, L-Carnitine Fumarate with Biosint Carnitines</h1>
+        </a>
+      </td>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\2.jpg"  />
+            <h1 class="product"> Now Foods, L-Lysine, 1,000 mg, 100 Tablets</h1>
+        </a>
+        </td>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\3.jpg"  />
+            <h1 class="product"> Scivation, Xtend, BCAAs, Grape, 13.8 oz (392 g)</h1>
+        </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#.html">
+          <img class="product" src="img\Amino Acids\4.jpg"  />
+          <h1 class="product"> Scivation, Xtend, BCAAs, Lemon Lime, 15.2 oz (431 g)</h1>
+      </a>
+    </td>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\5.jpg"  />
+            <h1 class="product"> Natrol, L-Arginine, 3000 mg, 90 Tablets</h1>
+        </a>
+        </td>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\6.jpg"  />
+            <h1 class="product"> Optimum Nutrition, BCAA 1000 Caps, Mega-Size, 1 g, 60 Capsules</h1>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\7.jpg"  />
+            <h1 class="product"> Muscletech, Platinum 100% Glutamine , 10.65 oz (302 g)</h1>
+        </a>
+        </td>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\8.jpg"  />
+            <h1 class="product"> MusclePharm, BCAA Essentials, Lemon Lime, 0.52 lbs (234 g)</h1>
+        </a>
+        </td>
+        <td>
+          <a href="#.html">
+            <img class="product" src="img\Amino Acids\9.jpg"  />
+            <h1 class="product"> Now Foods, Mood Support with St. John's Wort, 90 Veg Capsules</h1>
+        </a>
+        </td>
+      </tr>
+    </table>
+  </article>
+
   <footer>
 Conditions of Use Privacy Notice |  © 1996-2018, CxC company
   </footer>
+ </body>
+
+
 </html>
